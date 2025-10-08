@@ -2,7 +2,7 @@
 
 ## Description
 
-This project analyzes hospital patient data to explore clinical patterns associated with mortality using R. The data were obtained from PhysioNet’s public MIMIC-IV Clinical Database Demo $$1$$.
+This project analyzes hospital patient data to explore clinical patterns associated with mortality using R. The data were obtained from PhysioNet’s public MIMIC-IV Clinical Database Demo [1].
 
 This pipeline includes the following stages:
 
