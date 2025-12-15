@@ -60,8 +60,8 @@ kable(head(patients_mod1, n = 10))
 | 10008454 | F | 26 | 2110 | 2011 - 2013 | NA | 1 |
 | 10020640 | F | 91 | 2153 | 2011 - 2013 | 2154-02-04 | 1 |
 
-Promedio del tiempo de permanencia y tiempo total de permanencia por
-paciente (cálculo en horas)
+Average length of stay and total length of stay per patient (calculated in hours)
+
 
 ``` r
 admissions_mod <- mutate(admissions, length_of_stay = dischtime -  admittime, .after= dischtime) 
